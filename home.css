@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:cursive;
+    height:100vh;
+   
+
+}
+.nav-bar{
+   
+    position: fixed;
+      top: 0;
+      height:80px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color:rgb(9, 9, 41);
+      color: white;
+      /* padding: 15px 0; */
+      z-index: 999;
+      
+
+}
+.nav{
+    height:30px;
+    width:80px;
+    background-color: rgb(9, 9, 41);
+    border-radius: 1rem;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:15px;
+    font-weight: 600;
+    cursor:pointer;
+    border:1px solid orange;
+    
+}
+.nav:hover{
+    background:linear-gradient(-50deg,orange,orange);
+
+    color:black;
+    transition: ease 0.5s;
+    transform:rotate();
+}
+#home i{
+    
+    padding-right: 3px;
+}
+
+#lan{
+    width:100px;
+}
+
+.lan-last select{
+    background-color: orange;
+    font-family:Arial;
+    font-weight: 550;
+    border:1px solid black;
+    border-radius:0.3rem;
+    cursor:pointer;
+    color:white;
+
+}
+.lan-last select:focus{
+    outline:none;
+}
+
+
+#search-bar{
+    width:300px;
+    height:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    border-radius: 0.2rem;
+
+}
+
+
+.search input{
+    height:41px;
+    width:250px;
+    outline: none;
+    padding-left:15px;
+    font-size:16px;
+    border:1px solid black;
+    border-right:none;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.search input:hover{
+    border:2px solid orange;
+}
+
+#search-bar i{
+    background-color:orange;
+    height:41px;
+    width:42px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    cursor:pointer;
+    border-top-right-radius:0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+#search-bar i:hover{
+    opacity:0.8;
+    border-top-right-radius:0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    
+}
+
+#log-out{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100px;
+    margin-right:20px;
+    
+}
+#log-out i{
+    font-size:20px;
+    margin-right:3px;
+}
+
+#logo{
+    height:80px;
+    width:80px;
+    object-fit: cover;
+    border-radius: 50%;
+    border:none;
+    margin-left:20px;
+    
+}
+#logo img{
+    height:80px;
+    width:80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#about{
+    width:100px;
+    gap:3px;
+}
+#new
+{
+
+    gap:3px;
+}
+#new i{
+    font-size:20px;
+}
